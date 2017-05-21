@@ -1,0 +1,22 @@
+{
+  "name": "colorpack",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allajah/colorpack.git"
+  },
+  "keywords": [
+    "color"
+  ],
+  "author": "Allajah r1o.ryoma.abe@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Allajah/colorpack/issues"
+  },
+  "homepage": "https://github.com/Allajah/colorpack#readme"
+}
