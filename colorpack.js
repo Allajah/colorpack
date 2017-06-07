@@ -18,7 +18,7 @@ class Colorpack {
 
     intToHex(num){
         return '#' + num.toString(16).split('0x')[1];
-    };
+    }
 
     hexToRGB(hex) {
         const parsed = /^#?([A-F\d]{2})([A-F\d]{2})([A-F\d]{2})$/g.exec(hex);
@@ -31,7 +31,8 @@ class Colorpack {
           g: null,
           b: null
         };
-    };
+    }
+
     rgbToHex(rgb) {
       return `#${rgb.r.toString(16)}${rgb.g.toString(16)}${rgb.b.toString(16)}`.toUpperCase();
     }
