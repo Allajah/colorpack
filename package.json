@@ -2,9 +2,9 @@
   "name": "colorpack",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "colorpack.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Allajah/colorpack/issues"
   },
-  "homepage": "https://github.com/Allajah/colorpack#readme"
+  "homepage": "https://github.com/Allajah/colorpack#readme",
+  "devDependencies": {
+    "ava": "^0.19.1"
+  }
 }
