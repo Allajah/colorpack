@@ -4,7 +4,7 @@
   "description": "",
   "main": "colorpack.js",
   "scripts": {
-    "test": "ava"
+    "test": "jasmine-ts ./spec/**/*.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/Allajah/colorpack#readme",
   "devDependencies": {
-    "ava": "^0.19.1"
+    "@types/jasmine": "^2.6.0",
+    "ava": "^0.19.1",
+    "jasmine": "^2.8.0",
+    "jasmine-ts": "^0.2.1"
   }
 }
