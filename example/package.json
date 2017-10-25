@@ -1,0 +1,10 @@
+{
+  "name": "example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "colorpack": "^0.1.0"
+  }
+}
