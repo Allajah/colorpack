@@ -1,6 +1,6 @@
 {
   "name": "colorpack",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "",
   "main": "colorpack.js",
   "scripts": {
@@ -8,7 +8,6 @@
     "build": "tsc --outDir ./",
     "bump-minor": "npm version minor -m ':tada: Bumped version %s.'",
     "bump-patch": "npm version patch -m ':tada: Bumped version %s.'"
-
   },
   "repository": {
     "type": "git",
