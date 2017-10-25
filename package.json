@@ -4,7 +4,8 @@
   "description": "",
   "main": "colorpack.js",
   "scripts": {
-    "test": "jasmine-ts ./spec/**/*.spec.ts"
+    "test": "jasmine-ts ./spec/**/*.spec.ts",
+    "build": "tsc --outDir ./"
   },
   "repository": {
     "type": "git",
