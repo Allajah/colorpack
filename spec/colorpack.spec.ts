@@ -1,4 +1,4 @@
-import { Color, colorpack, HEXtoHSV, HEXtoInteger, HEXtoRGBA } from '../colorpack';
+import { Color, colorpack, HEXtoHSV, HEXtoInteger, HEXtoRGBA } from '../src/colorpack';
 
 describe('test', () => {
     it('must validate color string', () => {
