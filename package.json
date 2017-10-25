@@ -5,7 +5,10 @@
   "main": "colorpack.js",
   "scripts": {
     "test": "jasmine-ts ./spec/**/*.spec.ts",
-    "build": "tsc --outDir ./"
+    "build": "tsc --outDir ./",
+    "bump-minor": "npm version minor -m ':tada: Bumped version %s.'",
+    "bump-patch": "npm version patch -m ':tada: Bumped version %s.'"
+
   },
   "repository": {
     "type": "git",
