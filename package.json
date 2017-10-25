@@ -1,10 +1,13 @@
 {
   "name": "colorpack",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "",
   "main": "colorpack.js",
   "scripts": {
-    "test": "ava"
+    "test": "jasmine-ts ./spec/**/*.spec.ts",
+    "build": "tsc --outDir ./",
+    "bump-minor": "npm version minor -m ':tada: Bumped version %s.'",
+    "bump-patch": "npm version patch -m ':tada: Bumped version %s.'"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,8 @@
   },
   "homepage": "https://github.com/Allajah/colorpack#readme",
   "devDependencies": {
-    "ava": "^0.19.1"
+    "@types/jasmine": "^2.6.0",
+    "jasmine": "^2.8.0",
+    "jasmine-ts": "^0.2.1"
   }
 }
